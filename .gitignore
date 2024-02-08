@@ -4,7 +4,6 @@
 /public/build
 /public/hot
 /public/storage
-/public/storybook-static
 /storage/*.key
 /vendor
 /vendor.nosync
