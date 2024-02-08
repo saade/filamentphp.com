@@ -3,8 +3,7 @@
 return [
     'enabled' => env('BLAST_ENABLED', true),
 
-    'storybook_server_url' =>
-        env('STORYBOOK_SERVER_HOST', env('APP_URL')) . '/storybook_preview',
+    'storybook_server_url' => env('STORYBOOK_SERVER_HOST', env('APP_URL')) . '/storybook',
 
     /**
      * Specify which documentation pages to generate for the Tailwind classes used in your application
@@ -63,10 +62,8 @@ return [
         'appContentBg' => '#FFFFFF',
         'appBorderColor' => 'rgba(0,0,0,.1)',
         'appBorderRadius' => 4,
-        'fontBase' =>
-            "\"Nunito Sans\", -apple-system, \".SFNSText-Regular\", \"San Francisco\", BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-        'fontCode' =>
-            "\"Operator Mono\", \"Fira Code Retina\", \"Fira Code\", \"FiraCode-Retina\", \"Andale Mono\", \"Lucida Console\", Consolas, Monaco, monospace",
+        'fontBase' => '"Nunito Sans", -apple-system, ".SFNSText-Regular", "San Francisco", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif',
+        'fontCode' => '"Operator Mono", "Fira Code Retina", "Fira Code", "FiraCode-Retina", "Andale Mono", "Lucida Console", Consolas, Monaco, monospace',
         'textColor' => '#333333',
         'textInverseColor' => '#FFFFFF',
         'textMutedColor' => '#666666',
@@ -111,8 +108,7 @@ return [
         'deprecated' => [
             'background' => '#e02929',
             'color' => '#ffffff',
-            'description' =>
-                'This component is deprecated and should no longer be used',
+            'description' => 'This component is deprecated and should no longer be used',
         ],
         'wip' => [
             'background' => '#f59506',
@@ -147,25 +143,19 @@ return [
         'ui-height' => \A17\Blast\Components\DocsPages\UiHeight::class,
         'ui-min-height' => \A17\Blast\Components\DocsPages\UiMinHeight::class,
         'ui-max-height' => \A17\Blast\Components\DocsPages\UiMaxHeight::class,
-        'ui-border-width' =>
-            \A17\Blast\Components\DocsPages\UiBorderWidth::class,
-        'ui-border-radius' =>
-            \A17\Blast\Components\DocsPages\UiBorderRadius::class,
+        'ui-border-width' => \A17\Blast\Components\DocsPages\UiBorderWidth::class,
+        'ui-border-radius' => \A17\Blast\Components\DocsPages\UiBorderRadius::class,
         'ui-opacity' => \A17\Blast\Components\DocsPages\UiOpacity::class,
         'ui-shadows' => \A17\Blast\Components\DocsPages\UiShadows::class,
         'ui-transition' => \A17\Blast\Components\DocsPages\UiTransition::class,
         'ui-font-size' => \A17\Blast\Components\DocsPages\UiFontSize::class,
         'ui-font-weight' => \A17\Blast\Components\DocsPages\UiFontWeight::class,
         'ui-line-height' => \A17\Blast\Components\DocsPages\UiLineHeight::class,
-        'ui-letter-spacing' =>
-            \A17\Blast\Components\DocsPages\UiLetterSpacing::class,
-        'ui-breakpoints' =>
-            \A17\Blast\Components\DocsPages\UiBreakpoints::class,
+        'ui-letter-spacing' => \A17\Blast\Components\DocsPages\UiLetterSpacing::class,
+        'ui-breakpoints' => \A17\Blast\Components\DocsPages\UiBreakpoints::class,
         'ui-columns' => \A17\Blast\Components\DocsPages\UiColumns::class,
-        'ui-gutter-inner' =>
-            \A17\Blast\Components\DocsPages\UiGutterInner::class,
-        'ui-gutter-outer' =>
-            \A17\Blast\Components\DocsPages\UiGutterOuter::class,
+        'ui-gutter-inner' => \A17\Blast\Components\DocsPages\UiGutterInner::class,
+        'ui-gutter-outer' => \A17\Blast\Components\DocsPages\UiGutterOuter::class,
         'ui-container' => \A17\Blast\Components\DocsPages\UiContainer::class,
         'ui-typesets' => \A17\Blast\Components\DocsPages\UiTypesets::class,
     ],
