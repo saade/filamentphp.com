@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0353fb16800a7fb424707d1afaf2e1fe",
+    "content-hash": "3b0474f8ebab70ba33ac90d4b292ce67",
     "packages": [
         {
             "name": "archtechx/laravel-seo",
@@ -63,6 +63,70 @@
                 "source": "https://github.com/archtechx/laravel-seo/tree/v0.9.0"
             },
             "time": "2023-05-31T17:02:49+00:00"
+        },
+        {
+            "name": "area17/blast",
+            "version": "1.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/area17/blast.git",
+                "reference": "36ec52b08f859a841819ae9bc1663e01888e688d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/area17/blast/zipball/36ec52b08f859a841819ae9bc1663e01888e688d",
+                "reference": "36ec52b08f859a841819ae9bc1663e01888e688d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/filesystem": "^7.0|^8.0|^9.0|^10.0",
+                "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
+                "illuminate/view": "^7.0|^8.0|^9.0|^10.0",
+                "php": "^7.3|^8.0|^8.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.21|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "A17\\Blast\\BlastServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "A17\\Blast\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Brook",
+                    "email": "tim@area17.com"
+                }
+            ],
+            "description": "Storybook for Laravel Blade",
+            "homepage": "https://area17.com",
+            "keywords": [
+                "A17",
+                "blade",
+                "components",
+                "design-systems",
+                "laravel",
+                "storybook",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/area17/blast/issues/",
+                "source": "https://github.com/area17/blast/tree/1.9.1"
+            },
+            "time": "2023-09-28T22:04:54+00:00"
         },
         {
             "name": "aws/aws-crt-php",
